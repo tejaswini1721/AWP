@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .myclass {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 45px;
+            color: crimson;
+
+        }
+
+        .beautify {
+            background: black;
+            color: cornsilk;
+            padding: 8px;
+            font-size: 40px;
+            border-radius: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="myclass">
+        <div class="beautify" onmouseover="document.querySelector('.beautify').style.color='yellow'"
+            onmouseout="document.querySelector('.beautify').style.color='red'">
+            HELLO WORLD
+        </div>
+    </div>
+</body>
+
+</html>
